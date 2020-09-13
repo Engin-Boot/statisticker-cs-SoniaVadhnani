@@ -50,7 +50,7 @@ namespace Statistics
             //Implement statistics here
             Stats resultobj = new Stats();
 
-            if(!numbers.Any())
+            if(numbers.Count!=0)
             {
                 resultobj.Average=numbers.Average();
                 resultobj.Min=numbers.Min();
