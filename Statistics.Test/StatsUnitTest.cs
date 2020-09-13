@@ -28,7 +28,7 @@ namespace Statistics.Test
             Assert.True(computedStats.Min  == float.NaN);
 
         }
-         
+    }  
 }
 //All fields of computedStats (average, max, min) must be
 //Double.NaN (not-a-number), as described in
